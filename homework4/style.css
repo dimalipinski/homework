@@ -39,6 +39,7 @@ body {
 }
 
 .checkbox {
+  margin-bottom: 15px;
   cursor: pointer;
 }
 
