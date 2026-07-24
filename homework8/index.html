@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>формы</title>
+</head>
+<body>
+  <!-- <fieldset></fieldset> для группировки инпутов-->
+   <!-- <legend></legend> Добавляет заголовок полям ввода -->
+    <!-- <label for=""></label> используется для привязки инпутов к названию -->
+     <!-- <button type="reset"></button> сбросить форму -->
+     <!-- <button type="submit"></button> отправить форму -->
+      <!-- аттрибут name записывам техническое обозначение инпута -->
+  <!-- <form>
+    <fieldset>
+      <legend> Поля ввода </legend> -->
+      <!-- <label>
+        имя
+        <input type="text" placeholder="имя" name="name">
+      </label>
+      <label>
+        номер телефона
+        <input type="tel" inputmode="tel" placeholder="номер телефона" name="phone" required>
+      </label>
+      <label>
+        Email
+        <input type="email" inputmode="email" placeholder="Email" name="email" required>
+      </label>
+      <label>
+        Возраст
+        <input type="number" inputmode="numeric" placeholder="Возраст" name="age">
+      </label>
+      <label>
+        Дата
+        <input type="date" name="date" >
+      </label>
+
+      <button>Отправить форму</button>
+    </fieldset>
+    <textarea name="" id=""></textarea>
+  </form>
+
+  <form>
+    <label class="label">1
+      <input type="checkbox" name="first" value="first">
+    </label>
+    <label class="label">2
+      <input type="checkbox" name="second" value="second">
+    </label>
+    <label class="label">3
+      <input type="checkbox" name="third" name="third">
+    </label>
+  </form>
+  <font>
+
+  </font> -->
+
+  <form class="form">
+    <fieldset class="form-group">
+      <legend class="form-group-title">
+        Ваши личные данные
+      </legend>
+      <label class="label">
+        Ваше имя
+      </label>
+      <input class="input" type="text" placeholder="Имя" required>
+
+      <label class="label">
+        Ваш возраст
+      </label>
+      <input class="input" type="number" placeholder="Возраст" required>
+
+      <label class="label">
+        Ваш номер телефона
+      </label>
+      <input class="input" type="tel" placeholder="Номер телефона" required>
+
+      <label class="label">
+        Ваша почта
+      </label>
+      <input class="input" type="email" placeholder="Почта" required>
+    </fieldset>
+
+    <fieldset class="form-group">
+      <label class="label">
+        Сообщение
+      </label>
+      <textarea class="input textarea" placeholder="Ваше сообщение"></textarea>
+    </fieldset>
+
+    <fieldset class="form-group">
+      <input class="checkbox" type="checkbox" required>
+      <span class="checkbox-text">
+        Я принимаю правила
+      </span>
+    </fieldset>
+
+    <button class="button">
+      Отправить
+    </button>
+  </form>
+
+</body>
+</html>
